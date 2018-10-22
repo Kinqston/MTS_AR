@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1490095863398586}
+  m_IsPrefabAsset: 1
+--- !u!1 &1490095863398586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4175224789721472}
+  - component: {fileID: 114478533201363438}
+  m_Layer: 0
+  m_Name: GameControllerMonitor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4175224789721472
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1490095863398586}
+  m_LocalRotation: {x: -0, y: -0.99389994, z: -0, w: 0.11028586}
+  m_LocalPosition: {x: 0.62900007, y: 1.12, z: 1.23}
+  m_LocalScale: {x: 1.200001, y: 1.2, z: 1.200001}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114478533201363438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1490095863398586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09d5a5345e35d9409f3bf511301bc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image1: {fileID: 0}
+  image2: {fileID: 0}
+  image3: {fileID: 0}
+  image4: {fileID: 0}
+  image5: {fileID: 0}
+  batton1: {fileID: 0}
+  batton2: {fileID: 0}
+  batton3: {fileID: 0}
+  batton4: {fileID: 0}
+  batton5: {fileID: 0}
+  chek: {fileID: 0}
+  Chat2: {fileID: 0}
+  NPC: {fileID: 0}
+  ball:
+  - {fileID: 1499999093896004, guid: abb32c25c6d3f724ca6cbd87e3d87522, type: 2}
+  - {fileID: 1279858332930742, guid: f334cff27e33f0e4c891a8bddb025bec, type: 2}
+  - {fileID: 1420836234386542, guid: c2572d3653e3e1d4785ab91f504dbbe5, type: 2}
+  - {fileID: 1550226186330256, guid: ab5ca5667ee2465419fddac12e653bf2, type: 2}
+  - {fileID: 1378794420455470, guid: bb1b2bee8a85ca14fbd0e49a7b7092aa, type: 2}
+  - {fileID: 1961749633620394, guid: bef4b176e7c69de42be900674969d287, type: 2}
+  chest: {fileID: 0}
